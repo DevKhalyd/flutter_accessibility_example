@@ -12,6 +12,7 @@ class Accesibility extends StatelessWidget {
       title: 'Material App',
       routes: Routes.routes,
       initialRoute: Routes.login,
+      theme: ThemeData.dark(),
     );
   }
 }
