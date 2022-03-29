@@ -3,14 +3,20 @@ import 'package:flutter/material.dart';
 const _img =
     'https://happytravel.viajes/wp-content/uploads/2020/04/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png';
 /*
+  IOS
 
-IDEA:
+  Test.
+  1. The increase of the items icons or texts in the application from the device screen.
+  1.1 Also check with the video of Diego Developer (Allow to increase until a limit)
+  2. The screen reader for each platform (Use the semantics)
+  2.1 Use with the semantics of the screen exclude and merge semantics.
 
-1. Drawer with the items
-2. Drawer Header
-3. AppBar with the logout action
+  Android
 
-Basically a tipically application...
+  Test.
+
+  1. Implementation of the text works in the same way that Android
+  2. Implementation of the screen reader way on the same way 
 */
 
 class HomeScreen extends StatelessWidget {

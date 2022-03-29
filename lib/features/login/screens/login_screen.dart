@@ -3,19 +3,23 @@ import 'package:flutter/material.dart';
 import '../../../core/routes.dart';
 
 /*
-  IDEA: Basically create a login to test the accesibility of the app.
-
-  1. LargeIcon
-  2. TextField (Username)
-  3. TextField (Password)
-  4. Button (Login)
-  5. Button (Register)
-  6. Button (Forgot Password)
+  Android
 
   Test.
   1. The increase of the items icons or texts in the application from the device screen.
+  1.1 Also check with the video of Diego Developer (Allow to increase until a limit)
   2. The screen reader for each platform (Use the semantics)
-  3. The contrast on the screen
+  2.1 Use with the semantics of the screen exclude and merge semantics.
+  3. Just investigate the contrast on the screen
+
+  NOTE: If the app use sounds make sure the sound is replaced by vibrations
+
+  iOS
+
+  Test.
+
+  1. Implementation of the text works in the same way that Android
+  2. Implementation of the screen reader way on the same way 
  */
 
 class LoginScreen extends StatelessWidget {
