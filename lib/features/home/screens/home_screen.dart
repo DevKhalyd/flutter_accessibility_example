@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const _img =
-    'https://happytravel.viajes/wp-content/uploads/2020/04/146-1468479_my-profile-icon-blank-profile-picture-circle-hd.png';
+    'https://i.pinimg.com/originals/f0/1c/62/f01c624f2790fbcf659e3bbff436bfab.png';
 /*
   IOS
 

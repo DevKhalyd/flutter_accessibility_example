@@ -6,7 +6,7 @@ import '../../../core/routes.dart';
   Android
 
   Test.
-  1. The increase of the items icons or texts in the application from the device screen.
+
   1.1 Also check with the video of Diego Developer (Allow to increase until a limit)
   2. The screen reader for each platform (Use the semantics)
   2.1 Use with the semantics of the screen exclude and merge semantics.
@@ -22,10 +22,13 @@ import '../../../core/routes.dart';
   2. Implementation of the screen reader way on the same way 
  */
 
+// When increase the font Size, flutter handle that part
+// to allow to see the text in a good way
+
+// https://youtu.be/gFb55rIQzF0?t=803 to see how avoid the font increase a lot
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
-  // TODO: Test the data of the accesisbility.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
